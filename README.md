@@ -18,10 +18,8 @@ int main() {
     int projectVersion = 2;
     std::string hackathonName = "Fevrart Hackathon";
     std::string creationDate = "11th February 2024";
-
     int boxWidth = 40;
     int titleWidth = boxWidth - 2;
-
     printLine('=', boxWidth);
     printCenteredText(repositoryName, titleWidth);
     printLine('-', boxWidth);
@@ -30,6 +28,5 @@ int main() {
     std::cout << std::setw(20) << "Created for:" << std::setw(20) << hackathonName << std::endl;
     std::cout << std::setw(20) << "Creation Date:" << std::setw(20) << creationDate << std::endl;
     printLine('-', boxWidth);
-
     return 0;
 }
